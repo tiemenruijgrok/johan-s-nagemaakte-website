@@ -1,0 +1,24 @@
+(Dit is bedoeld als test.)
+
+Jouw bestanden bewaar je op GitHub onder je eigen account, gekoppeld aan je EMAILADRES VAN SCHOOL.
+Online bewerken doe je in GitPod. Je kunt daar werken met je GitHub-account.
+
+In GitPod kun je aan je code werken, zonder dat de door jou bewaarde versie in GitHub meteen wordt gewijzigd.
+Dit doe je door simpelweg in de adresbalk van jouw project
+
+http://gitpod.io#
+
+in te typen VOOR het GutHub-adres.
+
+Als je tevreden bent of aan het eind van het les zit, bewaar je een nieuwe versie door:
+1) de wijzigingen te selecteren (stage changes)
+2) de wijzigingen te committen (vinkje)
+3) de wijzigingen te pushen (onder ... Push)
+
+De standaard preview is handig, maar voor webdesign wil je vaak een fullscreen voorbeeld hebben. Typ daarvoor in de console:
+
+python3 -m http.server 3000
+(en druk op enter)
+
+Rechtsboven krijg je nu een blauw menuutje: kies daar voor "Open Browser".
+

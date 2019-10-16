@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+
+}
+
+#balk {
+    background-color: grey;
+    width: 80%;
+    height: 15%;
+}
+
+#container{
+    background-color: lightgray;
+    width: 80%;
+    height: 70%;
+    display: flex;
+}
+
+#menu{
+    background-color: darkgrey;
+    height:100%;
+    width: 20%;
+}
+
+#berichten{
+    background-color: darkslategrey;
+    height:100%;
+    width: 55%;
+}
+
+#plaatjes{
+    background-color: darkgreen;
+    height:100%;
+    width: 25%;
+}
