@@ -10,43 +10,45 @@ body{
 
 }
 
+
+
 #balk {
-    background-color: grey;
-    width: 80%;
-    height: 15%;
+    background-color: darkgrey;
+    width: 100%;
+    height: 8%;
+
 }
 
 #container{
-    background-color: lightgray;
-    width: 80%;
-    height: 70%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
     display: flex;
+
 }
 
 #menu{
-    background-color: rgb(169, 169, 169);
+    background-color: rgb(116, 18, 18);
     height:100%;
-    width: 20%;
+    width: 15%;
 }
 
-#berichten{
+#vakje{
     background-color: darkslategrey;
-    height:100%;
-    width: 55%;
+    height:20%;
+    width: 15%;
 }
 
-#plaatjes{
-    background-color: rgb(77, 83, 77);
-    height:100%;
-    width: 25%;
+#blokje{
+    background-color: aqua;
+    height:20%;
+    width: 15%;
+
 }
 
-.boodschap{
-    background-color: white;
-    border: 12px solid black;
-    border-radius: 20px;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 20px;
-    padding: 12px;
-}
+#blokje1{
+    background-color: blue;
+    height:20%;
+    width: 15%;
+
+    }
