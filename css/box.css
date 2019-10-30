@@ -20,7 +20,7 @@ body{
 }
 
 #container{
-    background-color: white;
+    background-color: blue;
     width: 100%;
     height: 100%;
     display: flex;
@@ -28,11 +28,19 @@ body{
 }
 
 #menu{
-    background-color: rgb(116, 18, 18);
+    background-color: white;
     height:100%;
-    width: 15%;
+    width: 35%;
 }
 
+#logo{
+    margin: 20%;
+}
+
+#blok{
+    height: 92%;
+    width: 85%;
+}
 #vakje{
     background-color: darkslategrey;
     height:20%;
@@ -47,8 +55,10 @@ body{
 }
 
 #blokje1{
-    background-color: blue;
+    background-color: darkred;
     height:20%;
     width: 15%;
 
     }
+
+
