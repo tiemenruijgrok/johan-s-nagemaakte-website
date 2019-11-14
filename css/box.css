@@ -44,17 +44,10 @@ body{
     width: 100%;
 
 }
-.vakjes{
-    background-color: yellow;
-    height:25%;
-    width: 19.1%;
+.vakjes{   
+    height: 190px;
+    width: 315px;
 }
-
-
-
-
-
-
 
 .kopjes{
     display: inline;
@@ -140,24 +133,39 @@ body{
 }
 
 
-a:link {
-  color: green;
+a.hoofdmenu:link, a:visited {
+  color: rgba(128, 128, 128, 0.815);
   background-color: transparent;
   text-decoration: none;
 }
-a:visited {
-  color: pink;
+
+a.hoofdmenu:hover {
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
-a:hover {
-  color: red;
+
+a.hoofdmenu:active {
+  color: rgba(0, 0, 0, 0.685);
   background-color: transparent;
   text-decoration: underline;
 }
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
+
+
+a.kopjes:link, a:visited {
+  background-color: rgba(128, 128, 128, 0.507);
+  color: white;
+  padding: 9px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.kopjes:hover {
+  background-color: red;
+}
+
+a.kopjes:active {
+  background-color: red;
 }
 
