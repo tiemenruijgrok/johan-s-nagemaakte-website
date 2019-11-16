@@ -9,13 +9,17 @@ body{
     margin: 0; 
 }
 
-
-
 #balk {
     background-color: #41494f;
     width: 100%;
-    height: 6.8%;
-    padding: 1px 0px 1px 0px; 
+    height: 30px;
+    padding: 15px 0px 15px 0px;
+    display: inline-block;
+}
+
+#balk ul{
+    padding: 5px 0 0 25px;
+    margin: 0 0 0 0;
 }
 
 #container{
@@ -39,6 +43,12 @@ body{
     height: 100%;
     width: 100%; 
 }
+
+.blok1{
+    height: 80%;
+    width: 100%;
+}
+
 .vakjes{   
     height: 190px;
     width: 315px;
@@ -46,11 +56,11 @@ body{
 
 .kopjes{
     display: inline;
-    margin: 0 15px 0 0;     
+    margin: 0 10px 0 0;
 }
 
-.kopkleur{
-    color: white;
+.kopjes a{
+     color: white;
 }
 
 .hoofdmenu{
@@ -121,7 +131,7 @@ body{
 }
 
 
-.tekst a:link, .hoofdmenu a:link {
+.tekst a:link, .hoofdmenu a:link{
     color: rgba(128, 128, 128, 0.815);
     background-color: transparent;
     text-decoration: none;
@@ -134,16 +144,40 @@ body{
  }
 
 
-.tekst a:hover, .hoofdmenu a:hover {
+.tekst a:hover, .hoofdmenu a:hover{
     color: black;
     background-color: transparent;
     text-decoration: none;
 }
 
-.tekst a:active, .hoofdmenu a:active {
+.tekst a:active, .hoofdmenu a:active{
     color: rgba(0, 0, 0, 0.685);
     background-color: transparent;
     text-decoration: none;
+}
+
+.kopjes a:link{
+    text-decoration: none;
+    background-color: transparent;
+    color: white; 
+    display: inline-block;
+}
+
+.kopjes a:visited{
+    background-color: rgba(51, 51, 51, 0.733);
+    padding: 0px 0px;
+    display: inline-block;
+}
+
+.kopjes a:hover{
+    background-color: rgba(51, 51, 51, 0.733);
+    padding: 0px 0px;
+    display: inline-block;
+}
+
+.kopjes a:active{
+    background-color: rgba(51, 51, 51, 0.733);
+    padding: 0px 0px;
 }
 
 .hoofdmenu::after{
@@ -159,22 +193,3 @@ body{
     width: 50%;
     transition: width .3s
 }
-
-
-.kopjes a:link, .kopjes a:visited {
-    background-color: transparent;
-    color: white;
-    text-align: center;
-    text-decoration: none;  
-}
-
-.kopjes:hover {
-    background-color: rgba(51, 51, 51, 0.733);
-    padding: 5px 5px;
-}
-
-.kopjes:active {
-    background-color: rgba(51, 51, 51, 0.733);
-    padding: 5px 5px;
-}
-
